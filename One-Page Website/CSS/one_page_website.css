@@ -149,3 +149,12 @@ h1 {
     background: rgb(235, 235, 235);
     
 }
+
+body {
+  opacity: 1;
+  transition: 1s opacity;
+}
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
